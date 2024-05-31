@@ -9,14 +9,14 @@ public class MainTestController {
 
     @GetMapping(value="/test")
     public String test1(){
-        System.out.println("hellow");
+        System.out.println("You're in Main Page");
         return "test";
     }
 
     @GetMapping("/test2")
     public String test2(){
 
-        System.out.println("hellow2");
+        System.out.println("You're in Second Page");
         return "test2";
     }
 }
